@@ -45,9 +45,5 @@ config.ts is added so the API or its path changed, updating this file with new p
 
 ### Libraries used
 
-axios - to call the API and get the response
-xmlbuilder2 - to read the xml string and convert to json response
-
-
-
-
+1. axios - to call the API and get the response
+2. xmlbuilder2 - to read the xml string and convert to json response
