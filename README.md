@@ -29,6 +29,9 @@ To run unit tests
 To check coverage
 `npm run coverage`
 
+To run typescript 
+`npm run tsc`
+
 ## In this app
 
 From the Given sample, the API response would be array of Books details and its stock - quantity and price.
@@ -36,8 +39,7 @@ Based on search path and query params, you can get the list of books.
 1. getBooksByAuthor - Gives the books based on Author name
 2. getBooksByYear - Gives the books by its published year
 3. getBooksByPublisher - Gives the books list by the name of its publisher company
-
-config.ts is added so the API or its path changed, updating this file with new path will give the response.
+4. config.ts is added so the API or its path changed, updating this file with new path will give the response.
 
 ### Coverage
 
